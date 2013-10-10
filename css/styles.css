@@ -3,3 +3,25 @@
   float: left;
   margin-right: 10px;
 }
+
+.strong {
+  border: 5px solid grey;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 1em;
+}
+
+body {
+  background-color: #39275B;
+}
+
+.container {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
