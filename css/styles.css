@@ -1,7 +1,24 @@
+@media (max-width: 190px) {
+  .logo {
+    display: none;
+  } 
+}
 .logo {
-  height: 41px;
+  height: 40px;
   float: left;
   margin-right: 10px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  padding: 3px;
+}
+
+.logo:hover {
+  box-shadow: 2px 2px 6px #555;
+  -webkit-transform: scale(1.1) rotate(-5deg);
+  -moz-transform: scale(1.1) rotate(-5deg);
+  -o-transform: scale(1.1) rotate(-5deg);
+  -ms-transform: scale(1.1) rotate(-5deg);
+  transform: scale(1.1) rotate(-5deg);
 }
 
 .strong {
@@ -24,4 +41,29 @@ body {
 
 footer {
   text-align: center;
+}
+
+footer:hover {
+  -webkit-transform: scale(1.1) rotate(5deg);
+  -moz-transform: scale(1.1) rotate(5deg);
+  -o-transform: scale(1.1) rotate(5deg);
+  -ms-transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
+}
+
+h2:hover {
+  -webkit-transform: scale(1.1) translateX(30px);
+  -moz-transform: scale(1.1) translateX(30px);
+  -o-transform: scale(1.1) translateX(30px);
+  -ms-transform: scale(1.1) translateX(30px);
+  transform: scale(1.1) translateX(30px);
+}
+
+img {
+  border: 2px solid;
+  border-color: #39275B;
+  border-radius: 20px;
+}
+.container {
+  border-radius: 10px;
 }

@@ -5,6 +5,7 @@
   <title>Dawg-Pizza</title>
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" media="screen">
   <meta name="author" content="Chris Teung">
   <meta name="description" content="INFO 343 Dawg Pizza">
@@ -12,28 +13,40 @@
 <body>
   <!--Inner container-->
   <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="Dawg Pizza Logo"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-    <div class="navbar">
-      <a href="index.html"><img class="logo" src="img/logo.png" alt="Dawg Pizza Logo"></a>
-      <div class="navbar-inner">
-        <a class="brand" href="index.html">Dawg Pizza</a>
-        <ul class="nav">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="menu.html">Menu</a></li>
-          <li class="active"><a href="about.html">About</a></li>
+          <li class="active"><a href="about.html">About</a></li>        
         </ul>
-      </div>
-    </div>
+      </div><!-- /.navbar-collapse -->
+    </nav>
 
     <div class="row">
-      <div class="span12">        
+      <div class="col-md-12">        
         <h1>About Dawg Pizza</h1>
         <hr>
       </div>
     </div>
     <!--1st row-->
     <div class="row">
-      <div class="span6">        
+      <div class="col-md-6">
+        <img class="img-responsive" src="img/pizza-oven.jpg" alt="pizza in oven">
+      </div>
+      <div class="col-md-6">        
         <h2>Our Story:</h2>
         <p>Dawg Pizza was started in 2013 with one simple goal: to get the students of the University of Washington to eat our pizza for every single meal. Well, maybe not every single meal, but most of them anyway. Cold pizza is really good for breakfast. And who can deny that pizza for lunch is really tasty? And when you've had a long day of classes and you're hungry, why not order a pizza for dinner too? And what should you do when you get hungry during that late-night study session? Order a pizza! That's where we come in.
 
@@ -42,14 +55,11 @@
           Our pizzas are the best in Seattle, but don't take our word for it. Try one and you'll see! 
         </p>
       </div>
-      <div class="span6">
-        <img src="img/pizza-oven.jpg" alt="pizza in oven">
-      </div>
     </div>
 
     <!--2nd row-->
     <div class="row">
-      <div class="span12">
+      <div class="col-md-12">
         <h2>Our Ecological Impact:</h2>
         <p>We love the environment, and we take extra steps to reduce our ecological footprint. For example, we collect and burn only naturally fallen wood from happy trees located within 100 miles of the restaurant. All our ingredients are fair-trade, organic, and residents of Washington State. Our meats come from animals that were named, raised in the ranchers' homes as if they were their children, and educated in the finest animal universities. The wheat for our dough is crushed by hand using a mortar and pestle. Our pizza boxes are made from recycled exam Blue Books and are guaranteed to decompose within seconds of finishing your pizza. We deliver using only rodent-powered vehicles and we all bike to work. We love the environment!
         </p>
@@ -58,7 +68,7 @@
 
     <!--Footer-->
     <div class="row">
-      <div class="span12">
+      <div class="col-md-12">
         <hr>
         <footer>
           <p>Call us for delivery: 206-555-1212</p>
