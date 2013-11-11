@@ -37,6 +37,7 @@ body {
   background-color: white;
   height: 100%;
   padding: 10px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 footer {
@@ -64,6 +65,23 @@ img {
   border-color: #39275B;
   border-radius: 20px;
 }
+
 .container {
   border-radius: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+dt {
+  margin-left: 5px;
+}
+
+dd {
+  margin-left: 15px;
+}
+
+li {
+  list-style-type: none;
 }
